@@ -10,7 +10,9 @@
   "keywords": [],
   "license": "ISC",
   "devDependencies": {
+    "@rocketseat/eslint-config": "2.2.2",
     "@types/node": "20.12.12",
+    "eslint": "8.56.0",
     "tsup": "8.0.2",
     "tsx": "4.10.4",
     "typescript": "5.4.5"
