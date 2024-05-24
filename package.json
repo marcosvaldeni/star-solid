@@ -7,7 +7,8 @@
     "start": "node build/server.js",
     "build": "tsup src --out-dir build",
     "test:once": "vitest run",
-    "test": "vitest"
+    "test": "vitest",
+    "coverage": "vitest --coverage"
   },
   "keywords": [],
   "license": "ISC",
@@ -15,6 +16,7 @@
     "@rocketseat/eslint-config": "2.2.2",
     "@types/bcryptjs": "2.4.6",
     "@types/node": "20.12.12",
+    "@vitest/coverage-v8": "1.6.0",
     "eslint": "8.56.0",
     "prisma": "5.14.0",
     "tsup": "8.0.2",
