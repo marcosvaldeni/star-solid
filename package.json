@@ -8,7 +8,8 @@
     "build": "tsup src --out-dir build",
     "test:once": "vitest run",
     "test": "vitest",
-    "coverage": "vitest --coverage"
+    "test:coverage": "vitest --coverage",
+    "test:ui": "vitest --ui"
   },
   "keywords": [],
   "license": "ISC",
@@ -17,6 +18,7 @@
     "@types/bcryptjs": "2.4.6",
     "@types/node": "20.12.12",
     "@vitest/coverage-v8": "1.6.0",
+    "@vitest/ui": "1.6.0",
     "eslint": "8.56.0",
     "prisma": "5.14.0",
     "tsup": "8.0.2",
