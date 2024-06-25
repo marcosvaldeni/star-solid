@@ -19,8 +19,8 @@ describe('Create Check-in (e2e)', () => {
     const gym = await prisma.gym.create({
       data: {
         title: 'JavaScript Gym',
-        latitude: -27,
-        longitude: -49,
+        latitude: -27.2092052,
+        longitude: -49.6401091,
       },
     })
 
@@ -28,8 +28,8 @@ describe('Create Check-in (e2e)', () => {
       .post(`/gyms/${gym.id}/check-ins`)
       .set('Authorization', `Bearer ${token}`)
       .send({
-        latitude: -27,
-        longitude: -49,
+        latitude: -27.2092052,
+        longitude: -49.6401091,
       })
 
     expect(response.statusCode).toEqual(201)
